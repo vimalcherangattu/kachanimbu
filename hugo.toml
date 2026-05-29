@@ -1,0 +1,41 @@
+baseURL = "https://kachanimbu.com/"
+languageCode = "en-us"
+title = "Kachanimbu"
+theme = "PaperMod"
+paginate = 10
+
+[params]
+  author = "Vimal"
+  description = "Thoughts on everything and anything."
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = false
+  ShowCodeCopyButtons = true
+  ShowShareButtons = false
+  ShowRssButtonInSectionTermList = false
+
+[params.homeInfoParams]
+  Title = "Kachanimbu"
+  Content = "Thoughts on everything and anything."
+
+[[params.socialIcons]]
+  name = "instagram"
+  url = "https://instagram.com/"
+
+[[params.socialIcons]]
+  name = "x"
+  url = "https://x.com/"
+
+[menu]
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 1
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
+
+[markup.highlight]
+  noClasses = false
