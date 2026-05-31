@@ -3,6 +3,10 @@ languageCode = "en-us"
 title = "Kachanimbu"
 theme = "PaperMod"
 paginate = 10
+enableRobotsTXT = true
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
 
 [params]
   author = "Vimal"
@@ -12,8 +16,18 @@ paginate = 10
   ShowPostNavLinks = true
   ShowBreadCrumbs = false
   ShowCodeCopyButtons = true
-  ShowShareButtons = false
+  ShowShareButtons = true
   ShowRssButtonInSectionTermList = false
+  ShowFullTextinRSS = true
+
+[params.profileMode]
+  enabled = true
+  title = "Kachanimbu"
+  subtitle = "Average is awesome."
+  imageUrl = "/Profile.jpeg"
+  imageWidth = 120
+  imageHeight = 120
+  imageTitle = "Vimal"
 
 [params.homeInfoParams]
   Title = "Kachanimbu"
@@ -28,6 +42,10 @@ paginate = 10
     name = "About"
     url = "/about/"
     weight = 2
+  [[menu.main]]
+    name = "Search"
+    url = "/search/"
+    weight = 3
 
 [markup.highlight]
   noClasses = false
