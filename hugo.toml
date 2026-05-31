@@ -6,7 +6,7 @@ paginate = 10
 
 [params]
   author = "Vimal"
-  description = "Thoughts on everything and anything."
+  description = "Average is awesome."
   defaultTheme = "auto"
   ShowReadingTime = true
   ShowPostNavLinks = true
@@ -17,15 +17,7 @@ paginate = 10
 
 [params.homeInfoParams]
   Title = "Kachanimbu"
-  Content = "Thoughts on everything and anything."
-
-[[params.socialIcons]]
-  name = "instagram"
-  url = "https://instagram.com/"
-
-[[params.socialIcons]]
-  name = "x"
-  url = "https://x.com/"
+  Content = "Average is awesome."
 
 [menu]
   [[menu.main]]
